@@ -1,0 +1,1 @@
+== Sample Rails app to demonstrate GitHub access hook and Rubyzip gem
