@@ -26,41 +26,19 @@ gem 'jquery-rails'
 gem 'nanoc3'
 
 
+gem "kramdown"
+gem "nokogiri"
+gem "yajl-ruby"
+gem "pygmentize"
+gem "mime-types"
+gem "haml"
+gem "systemu"
 
-gem 'adsf'
-gem 'bluecloth'
-gem 'builder'
-gem 'coderay'
-gem 'coffee-script'
-gem 'erubis'
-gem 'fog'
-gem 'haml'
-gem 'kramdown'
-gem 'less', '~> 2.0'
-gem 'listen'
-gem 'markaby'
-gem 'maruku'
-gem 'mime-types'
-gem 'mustache'
-gem 'nokogiri'
-gem 'pygments.rb'
-gem 'rack'
-gem 'rake'
-gem 'rainpress'
-gem 'rdiscount'
-gem 'rdoc'
-gem 'redcarpet'
-gem 'RedCloth'
-gem 'rubypants'
-gem 'sass', '~> 3.1'
-gem 'slim'
-gem 'systemu'
-gem 'typogruby'
-gem 'w3c_validators'
-gem 'yuicompressor'
-gem 'therubyracer'
-gem 'yajl-ruby'
-
+group :development do
+  gem "adsf"
+  gem 'zip'
+  gem "vmc"
+end
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
