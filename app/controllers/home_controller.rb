@@ -1,9 +1,14 @@
-class HomeController < ApplicationController
-
 require 'rubygems'
 require 'zip/zip'
+require 'nanoc3'
+require 'nanoc3/cli'
+require 'nanoc3/cli/logger'
 
-	def index 
+class HomeController < ApplicationController
+	
+
+	def index 	
+	   Nanoc3::CLI.run(['tags'])
 	end 
 
 	def commit 
