@@ -34,6 +34,9 @@ class HomeController < ApplicationController
    		}
    	File.rename(mydir,'public/docs/content')
    	FileUtils.mv('public/docs/content','content')
+   	# Run nanoc commands
+   	Nanoc3::CLI.run(['tags'])
+	  Nanoc3::CLI.run(['compile'])
 	end 
 
 
