@@ -24,6 +24,7 @@ end
 
 gem 'jquery-rails'
 gem 'nanoc3'
+gem 'resque'
 
 
 gem "kramdown"
