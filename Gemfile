@@ -1,12 +1,12 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.7'
+gem 'rails', '3.2.8'
 gem 'rubyzip'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
+gem 'mysql2'
 require 'open-uri'
 
 
@@ -25,6 +25,10 @@ end
 gem 'jquery-rails'
 gem 'nanoc3'
 gem 'resque'
+
+gem 'activeadmin'
+gem "meta_search",    '>= 1.1.0.pre'
+
 
 
 gem "kramdown"
