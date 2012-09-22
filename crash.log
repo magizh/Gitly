@@ -1,8 +1,8 @@
-Crashlog created at 2012-09-13 10:50:46 -0400
+Crashlog created at 2012-09-20 17:47:42 -0400
 
 === MESSAGE:
 
-LoadError: cannot load such file -- nanoc3/helpers/tagging
+LoadError: no such file to load -- nanoc3/cli/logger
 
 === COMPILATION STACK:
 
@@ -10,194 +10,171 @@ LoadError: cannot load such file -- nanoc3/helpers/tagging
 
 === BACKTRACE:
 
-  0. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.2.7/lib/active_support/dependencies.rb:251:in `require'
-  1. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.2.7/lib/active_support/dependencies.rb:251:in `block in require'
-  2. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.2.7/lib/active_support/dependencies.rb:236:in `load_dependency'
-  3. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.2.7/lib/active_support/dependencies.rb:251:in `require'
-  4. lib/default.rb:4:in `<main>'
-  5. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/nanoc-3.4.0/lib/nanoc/base/source_data/code_snippet.rb:36:in `eval'
-  6. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/nanoc-3.4.0/lib/nanoc/base/source_data/code_snippet.rb:36:in `load'
-  7. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/nanoc-3.4.0/lib/nanoc/base/source_data/site.rb:300:in `block in load_code_snippets'
-  8. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/nanoc-3.4.0/lib/nanoc/base/source_data/site.rb:300:in `each'
-  9. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/nanoc-3.4.0/lib/nanoc/base/source_data/site.rb:300:in `load_code_snippets'
-  10. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/nanoc-3.4.0/lib/nanoc/base/source_data/site.rb:244:in `load'
-  11. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/nanoc-3.4.0/lib/nanoc/base/compilation/compiler.rb:112:in `load'
-  12. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/nanoc-3.4.0/lib/nanoc/base/compilation/compiler.rb:82:in `run'
-  13. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/nanoc-3.4.0/lib/nanoc/base/source_data/site.rb:57:in `compile'
-  14. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/nanoc-3.4.0/lib/nanoc/cli/commands/compile.rb:57:in `run'
-  15. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/nanoc-3.4.0/lib/nanoc/cli/command_runner.rb:14:in `block in call'
-  16. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/nanoc-3.4.0/lib/nanoc/cli/error_handler.rb:63:in `handle_while'
-  17. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/nanoc-3.4.0/lib/nanoc/cli/error_handler.rb:26:in `handle_while'
-  18. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/nanoc-3.4.0/lib/nanoc/cli/command_runner.rb:13:in `call'
-  19. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/cri-2.3.0/lib/cri/command_dsl.rb:185:in `block in runner'
-  20. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/cri-2.3.0/lib/cri/command.rb:296:in `call'
-  21. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/cri-2.3.0/lib/cri/command.rb:296:in `run_this'
-  22. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/cri-2.3.0/lib/cri/command.rb:249:in `run'
-  23. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/cri-2.3.0/lib/cri/command.rb:262:in `run'
-  24. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/nanoc-3.4.0/lib/nanoc/cli.rb:47:in `block in run'
-  25. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/nanoc-3.4.0/lib/nanoc/cli/error_handler.rb:63:in `handle_while'
-  26. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/nanoc-3.4.0/lib/nanoc/cli/error_handler.rb:26:in `handle_while'
-  27. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/nanoc-3.4.0/lib/nanoc/cli.rb:44:in `run'
-  28. /Users/magizharasuthirunavukkarasu/vm/gitly/app/controllers/home_controller.rb:11:in `index'
-  29. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.7/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
-  30. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.7/lib/abstract_controller/base.rb:167:in `process_action'
-  31. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.7/lib/action_controller/metal/rendering.rb:10:in `process_action'
-  32. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.7/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
-  33. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.2.7/lib/active_support/callbacks.rb:403:in `_run__2755214119340027765__process_action__1864442487628959165__callbacks'
-  34. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.2.7/lib/active_support/callbacks.rb:405:in `__run_callback'
-  35. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.2.7/lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
-  36. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.2.7/lib/active_support/callbacks.rb:81:in `run_callbacks'
-  37. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.7/lib/abstract_controller/callbacks.rb:17:in `process_action'
-  38. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.7/lib/action_controller/metal/rescue.rb:29:in `process_action'
-  39. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.7/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
-  40. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.2.7/lib/active_support/notifications.rb:123:in `block in instrument'
-  41. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.2.7/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
-  42. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.2.7/lib/active_support/notifications.rb:123:in `instrument'
-  43. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.7/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
-  44. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.7/lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
-  45. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/activerecord-3.2.7/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
-  46. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.7/lib/abstract_controller/base.rb:121:in `process'
-  47. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.7/lib/abstract_controller/rendering.rb:45:in `process'
-  48. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.7/lib/action_controller/metal.rb:203:in `dispatch'
-  49. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.7/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
-  50. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.7/lib/action_controller/metal.rb:246:in `block in action'
-  51. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.7/lib/action_dispatch/routing/route_set.rb:73:in `call'
-  52. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.7/lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
-  53. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.7/lib/action_dispatch/routing/route_set.rb:36:in `call'
-  54. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/journey-1.0.4/lib/journey/router.rb:68:in `block in call'
-  55. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/journey-1.0.4/lib/journey/router.rb:56:in `each'
-  56. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/journey-1.0.4/lib/journey/router.rb:56:in `call'
-  57. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.7/lib/action_dispatch/routing/route_set.rb:600:in `call'
-  58. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.7/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
-  59. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/rack-1.4.1/lib/rack/etag.rb:23:in `call'
-  60. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/rack-1.4.1/lib/rack/conditionalget.rb:25:in `call'
-  61. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.7/lib/action_dispatch/middleware/head.rb:14:in `call'
-  62. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.7/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
-  63. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.7/lib/action_dispatch/middleware/flash.rb:242:in `call'
-  64. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/rack-1.4.1/lib/rack/session/abstract/id.rb:205:in `context'
-  65. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/rack-1.4.1/lib/rack/session/abstract/id.rb:200:in `call'
-  66. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.7/lib/action_dispatch/middleware/cookies.rb:338:in `call'
-  67. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/activerecord-3.2.7/lib/active_record/query_cache.rb:64:in `call'
-  68. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/activerecord-3.2.7/lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
-  69. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.7/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
-  70. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.2.7/lib/active_support/callbacks.rb:405:in `_run__1932282725141289983__call__2930426160860874385__callbacks'
-  71. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.2.7/lib/active_support/callbacks.rb:405:in `__run_callback'
-  72. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.2.7/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
-  73. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.2.7/lib/active_support/callbacks.rb:81:in `run_callbacks'
-  74. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.7/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
-  75. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.7/lib/action_dispatch/middleware/reloader.rb:65:in `call'
-  76. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.7/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
-  77. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.7/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
-  78. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.7/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
-  79. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/railties-3.2.7/lib/rails/rack/logger.rb:26:in `call_app'
-  80. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/railties-3.2.7/lib/rails/rack/logger.rb:16:in `call'
-  81. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.7/lib/action_dispatch/middleware/request_id.rb:22:in `call'
-  82. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/rack-1.4.1/lib/rack/methodoverride.rb:21:in `call'
-  83. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/rack-1.4.1/lib/rack/runtime.rb:17:in `call'
-  84. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.2.7/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
-  85. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/rack-1.4.1/lib/rack/lock.rb:15:in `call'
-  86. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.7/lib/action_dispatch/middleware/static.rb:62:in `call'
-  87. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/railties-3.2.7/lib/rails/engine.rb:479:in `call'
-  88. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/railties-3.2.7/lib/rails/application.rb:220:in `call'
-  89. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/rack-1.4.1/lib/rack/content_length.rb:14:in `call'
-  90. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/railties-3.2.7/lib/rails/rack/log_tailer.rb:17:in `call'
-  91. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/rack-1.4.1/lib/rack/handler/webrick.rb:59:in `service'
-  92. /Users/magizharasuthirunavukkarasu/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
-  93. /Users/magizharasuthirunavukkarasu/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
-  94. /Users/magizharasuthirunavukkarasu/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+  0. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/activesupport-3.2.8/lib/active_support/dependencies.rb:251:in `require'
+  1. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/activesupport-3.2.8/lib/active_support/dependencies.rb:251:in `block in require'
+  2. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/activesupport-3.2.8/lib/active_support/dependencies.rb:236:in `load_dependency'
+  3. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/activesupport-3.2.8/lib/active_support/dependencies.rb:251:in `require'
+  4. commands/tags.rb:17:in `block in define'
+  5. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/cri-2.3.0/lib/cri/command.rb:296:in `call'
+  6. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/cri-2.3.0/lib/cri/command.rb:296:in `run_this'
+  7. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/cri-2.3.0/lib/cri/command.rb:249:in `run'
+  8. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/cri-2.3.0/lib/cri/command.rb:262:in `run'
+  9. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/nanoc-3.4.0/lib/nanoc/cli.rb:47:in `block in run'
+  10. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/nanoc-3.4.0/lib/nanoc/cli/error_handler.rb:63:in `handle_while'
+  11. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/nanoc-3.4.0/lib/nanoc/cli/error_handler.rb:26:in `handle_while'
+  12. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/nanoc-3.4.0/lib/nanoc/cli.rb:44:in `run'
+  13. (irb):2:in `irb_binding'
+  14. /Users/magizharasuthirunavukkarasu/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/irb/workspace.rb:80:in `eval'
+  15. /Users/magizharasuthirunavukkarasu/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/irb/workspace.rb:80:in `evaluate'
+  16. /Users/magizharasuthirunavukkarasu/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/irb/context.rb:254:in `evaluate'
+  17. /Users/magizharasuthirunavukkarasu/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/irb.rb:159:in `block (2 levels) in eval_input'
+  18. /Users/magizharasuthirunavukkarasu/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/irb.rb:273:in `signal_status'
+  19. /Users/magizharasuthirunavukkarasu/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/irb.rb:156:in `block in eval_input'
+  20. /Users/magizharasuthirunavukkarasu/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/irb/ruby-lex.rb:243:in `block (2 levels) in each_top_level_statement'
+  21. /Users/magizharasuthirunavukkarasu/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/irb/ruby-lex.rb:229:in `loop'
+  22. /Users/magizharasuthirunavukkarasu/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/irb/ruby-lex.rb:229:in `block in each_top_level_statement'
+  23. /Users/magizharasuthirunavukkarasu/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/irb/ruby-lex.rb:228:in `catch'
+  24. /Users/magizharasuthirunavukkarasu/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/irb/ruby-lex.rb:228:in `each_top_level_statement'
+  25. /Users/magizharasuthirunavukkarasu/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/irb.rb:155:in `eval_input'
+  26. /Users/magizharasuthirunavukkarasu/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/irb.rb:70:in `block in start'
+  27. /Users/magizharasuthirunavukkarasu/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/irb.rb:69:in `catch'
+  28. /Users/magizharasuthirunavukkarasu/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/irb.rb:69:in `start'
+  29. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/railties-3.2.8/lib/rails/commands/console.rb:47:in `start'
+  30. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/railties-3.2.8/lib/rails/commands/console.rb:8:in `start'
+  31. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/railties-3.2.8/lib/rails/commands.rb:41:in `<top (required)>'
+  32. script/rails:6:in `require'
+  33. script/rails:6:in `<main>'
 
 === VERSION INFORMATION:
 
 nanoc 3.4.0 © 2007-2012 Denis Defreyne.
-Running ruby 1.9.3 (2012-02-16) on x86_64-darwin11.3.0 with RubyGems 1.8.24.
+Running ruby 1.9.2 (2012-04-20) on x86_64-darwin11.4.0 with RubyGems 1.8.24.
 
 === INSTALLED GEMS:
 
-  actionmailer 3.2.7
-  actionpack 3.2.7
-  activemodel 3.2.7
-  activerecord 3.2.7
-  activeresource 3.2.7
-  activesupport 3.2.7
-  adsf 1.0.1
+  actionmailer 3.2.8
+  actionpack 3.2.8
+  activeadmin 0.5.0
+  activemodel 3.2.8
+  activerecord 3.2.8
+  activeresource 3.2.8
+  activesupport 3.2.8
+  addressable 2.2.8
+  adsf 1.1.1
+  arbre 1.0.1
   arel 3.0.2
-  builder 3.0.0
-  bundler 1.1.0
+  bcrypt-ruby 3.0.1
+  bourbon 2.1.1
+  builder 3.0.3
+  bundler 1.1.5
+  cfoundry 0.3.34
   coffee-rails 3.2.2
   coffee-script 2.2.0
   coffee-script-source 1.3.3
   colored 1.2
   cri 2.3.0
+  devise 2.1.2
   erubis 2.7.0
   execjs 1.4.0
+  fastercsv 1.5.5
+  formtastic 2.2.1
+  haml 3.1.7
+  has_scope 0.5.1
   hike 1.2.1
-  i18n 0.6.0
+  i18n 0.6.1
+  inherited_resources 1.3.1
+  interact 0.4.8
   journey 1.0.4
-  jquery-rails 2.0.2
-  json 1.7.4
-  kramdown 0.13.5
+  jquery-rails 2.1.2
+  json 1.7.5
+  json_pure 1.6.7
+  kaminari 0.14.1
+  kramdown 0.14.0
   mail 2.4.4
+  meta_search 1.1.3
   mime-types 1.19
   multi_json 1.3.6
+  mysql2 0.3.11
   nanoc 3.4.0
+  nanoc3 3.3.0
+  nokogiri 1.5.5
+  orm_adapter 0.4.0
+  polyamorous 0.5.0
   polyglot 0.3.3
+  pygmentize 0.0.3
   rack 1.4.1
   rack-cache 1.2
+  rack-protection 1.2.0
   rack-ssl 1.3.2
   rack-test 0.6.1
-  rails 3.2.7
-  railties 3.2.7
+  rails 3.2.8
+  railties 3.2.8
   rake 0.9.2.2
+  rb-readline 0.4.2
   rdoc 3.12
+  redis 3.0.1
+  redis-namespace 1.2.1
+  responders 0.9.2
+  resque 1.22.0
+  rest-client 1.6.7
   rubyzip 0.9.9
-  sass 3.1.20
+  sass 3.2.1
   sass-rails 3.2.5
+  sinatra 1.3.3
   sprockets 2.1.3
-  sqlite3 1.3.6
-  thor 0.15.4
+  systemu 2.5.2
+  terminal-table 1.4.5
+  thor 0.16.0
   tilt 1.3.3
   treetop 1.4.10
   tzinfo 0.3.33
-  uglifier 1.2.7
+  uglifier 1.3.0
+  uuidtools 2.1.3
+  vegas 0.1.11
+  vmc 0.3.21
+  warden 1.2.1
+  yajl-ruby 1.1.0
+  zip 2.0.2
 
 === ENVIRONMENT:
 
 Apple_PubSub_Socket_Render => "/tmp/launch-PpJtPT/Render"
 Apple_Ubiquity_Message => "/tmp/launch-dwqzU2/Apple_Ubiquity_Message"
-BUNDLE_BIN_PATH => "/Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/bundler-1.1.0/bin/bundle"
+BUNDLE_BIN_PATH => "/Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@global/gems/bundler-1.1.5/bin/bundle"
 BUNDLE_GEMFILE => "/Users/magizharasuthirunavukkarasu/vm/gitly/Gemfile"
+COLUMNS => "177"
 COMMAND_MODE => "unix2003"
 DISPLAY => "/tmp/launch-2KQhnS/org.x:0"
 DYLD_LIBRARY_PATH => "/usr/local/mysql-5.5.21-osx10.6-x86_64/lib:"
-GEM_HOME => "/Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125"
-GEM_PATH => "/Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125:/Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125@global"
+GEM_HOME => "/Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs"
+GEM_PATH => "/Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs:/Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@global"
 HOME => "/Users/magizharasuthirunavukkarasu"
-IRBRC => "/Users/magizharasuthirunavukkarasu/.rvm/rubies/ruby-1.9.3-p125/.irbrc"
+IRBRC => "/Users/magizharasuthirunavukkarasu/.rvm/rubies/ruby-1.9.2-p320/.irbrc"
 LANG => "en_US.UTF-8"
+LINES => "43"
 LOGNAME => "magizharasuthirunavukkarasu"
-MY_RUBY_HOME => "/Users/magizharasuthirunavukkarasu/.rvm/rubies/ruby-1.9.3-p125"
-OLDPWD => "/Users/magizharasuthirunavukkarasu/vm"
-PATH => "/Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/bin:/Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125@global/bin:/Users/magizharasuthirunavukkarasu/.rvm/rubies/ruby-1.9.3-p125/bin:/Users/magizharasuthirunavukkarasu/.rvm/bin:/Users/magizharasuthirunavukkarasu/.bin:/opt/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/mysql-5.5.21-osx10.6-x86_64/bin:/usr/local/sbin"
+MY_RUBY_HOME => "/Users/magizharasuthirunavukkarasu/.rvm/rubies/ruby-1.9.2-p320"
+OLDPWD => "/Users/magizharasuthirunavukkarasu"
+PATH => "/Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/bin:/Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@global/bin:/Users/magizharasuthirunavukkarasu/.rvm/rubies/ruby-1.9.2-p320/bin:/Users/magizharasuthirunavukkarasu/.rvm/bin:/Users/magizharasuthirunavukkarasu/.bin:/opt/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/mysql-5.5.21-osx10.6-x86_64/bin:/usr/local/sbin"
 PWD => "/Users/magizharasuthirunavukkarasu/vm/gitly"
-RACK_ENV => "development"
-RAILS_ENV => "development"
-RUBYOPT => "-I/Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/bundler-1.1.0/lib -rbundler/setup"
-RUBY_VERSION => "ruby-1.9.3-p125"
+RUBYOPT => "-I/Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@global/gems/bundler-1.1.5/lib -rbundler/setup"
+RUBY_VERSION => "ruby-1.9.2-p320"
 SHELL => "/bin/bash"
 SHLVL => "1"
 SSH_AUTH_SOCK => "/tmp/launch-3DY7TH/Listeners"
 TERM => "xterm-256color"
 TERM_PROGRAM => "Apple_Terminal"
 TERM_PROGRAM_VERSION => "303.2"
-TERM_SESSION_ID => "559C76D9-949E-4507-93ED-92D54DB80A1E"
+TERM_SESSION_ID => "16F0639A-2861-45AB-B729-63BE1C0AFA42"
 TMPDIR => "/var/folders/nh/j5brnrmd4lsc8_20zgmsqbc00000gn/T/"
 USER => "magizharasuthirunavukkarasu"
 USE_CCACHE => "1"
-_ => "/Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/bin/rails"
+_ => "/Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/bin/rails"
 __CF_USER_TEXT_ENCODING => "0x1F5:0:0"
 __array_start => "0"
 _first => "0"
 _second => "1"
+escape_flag => "1"
 rvm_bin_path => "/Users/magizharasuthirunavukkarasu/.rvm/bin"
 rvm_path => "/Users/magizharasuthirunavukkarasu/.rvm"
 rvm_prefix => "/Users/magizharasuthirunavukkarasu"
@@ -209,12 +186,12 @@ rvm_version => "1.14.7 ()"
 GEM
   remote: https://rubygems.org/
   specs:
-    actionmailer (3.2.7)
-      actionpack (= 3.2.7)
+    actionmailer (3.2.8)
+      actionpack (= 3.2.8)
       mail (~> 2.4.4)
-    actionpack (3.2.7)
-      activemodel (= 3.2.7)
-      activesupport (= 3.2.7)
+    actionpack (3.2.8)
+      activemodel (= 3.2.8)
+      activesupport (= 3.2.8)
       builder (~> 3.0.0)
       erubis (~> 2.7.0)
       journey (~> 1.0.4)
@@ -222,24 +199,46 @@ GEM
       rack-cache (~> 1.2)
       rack-test (~> 0.6.1)
       sprockets (~> 2.1.3)
-    activemodel (3.2.7)
-      activesupport (= 3.2.7)
+    activeadmin (0.5.0)
+      arbre (>= 1.0.1)
+      bourbon (>= 1.0.0)
+      devise (>= 1.1.2)
+      fastercsv
+      formtastic (>= 2.0.0)
+      inherited_resources (>= 1.3.1)
+      jquery-rails (>= 1.0.0)
+      kaminari (>= 0.13.0)
+      meta_search (>= 0.9.2)
+      rails (>= 3.0.0)
+      sass (>= 3.1.0)
+    activemodel (3.2.8)
+      activesupport (= 3.2.8)
       builder (~> 3.0.0)
-    activerecord (3.2.7)
-      activemodel (= 3.2.7)
-      activesupport (= 3.2.7)
+    activerecord (3.2.8)
+      activemodel (= 3.2.8)
+      activesupport (= 3.2.8)
       arel (~> 3.0.2)
       tzinfo (~> 0.3.29)
-    activeresource (3.2.7)
-      activemodel (= 3.2.7)
-      activesupport (= 3.2.7)
-    activesupport (3.2.7)
+    activeresource (3.2.8)
+      activemodel (= 3.2.8)
+      activesupport (= 3.2.8)
+    activesupport (3.2.8)
       i18n (~> 0.6)
       multi_json (~> 1.0)
-    adsf (1.0.1)
+    addressable (2.2.8)
+    adsf (1.1.1)
       rack (>= 1.0.0)
+    arbre (1.0.1)
+      activesupport (>= 3.0.0)
     arel (3.0.2)
-    builder (3.0.0)
+    bcrypt-ruby (3.0.1)
+    bourbon (2.1.1)
+      sass (>= 3.1)
+    builder (3.0.3)
+    cfoundry (0.3.34)
+      multi_json (~> 1.3.6)
+      rest-client (~> 1.6.1)
+      rubyzip (~> 0.9.9)
     coffee-rails (3.2.2)
       coffee-script (>= 2.2.0)
       railties (~> 3.2.0)
@@ -250,149 +249,274 @@ GEM
     colored (1.2)
     cri (2.3.0)
       colored (>= 1.2)
+    devise (2.1.2)
+      bcrypt-ruby (~> 3.0)
+      orm_adapter (~> 0.1)
+      railties (~> 3.1)
+      warden (~> 1.2.1)
     erubis (2.7.0)
     execjs (1.4.0)
       multi_json (~> 1.0)
+    fastercsv (1.5.5)
+    formtastic (2.2.1)
+      actionpack (>= 3.0)
+    haml (3.1.7)
+    has_scope (0.5.1)
     hike (1.2.1)
-    i18n (0.6.0)
+    i18n (0.6.1)
+    inherited_resources (1.3.1)
+      has_scope (~> 0.5.0)
+      responders (~> 0.6)
+    interact (0.4.8)
     journey (1.0.4)
-    jquery-rails (2.0.2)
-      railties (>= 3.2.0, < 5.0)
+    jquery-rails (2.1.2)
+      railties (>= 3.1.0, < 5.0)
       thor (~> 0.14)
-    json (1.7.4)
-    kramdown (0.13.5)
+    json (1.7.5)
+    json_pure (1.6.7)
+    kaminari (0.14.1)
+      actionpack (>= 3.0.0)
+      activesupport (>= 3.0.0)
+    kramdown (0.14.0)
     mail (2.4.4)
       i18n (>= 0.4.0)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
+    meta_search (1.1.3)
+      actionpack (~> 3.1)
+      activerecord (~> 3.1)
+      activesupport (~> 3.1)
+      polyamorous (~> 0.5.0)
     mime-types (1.19)
     multi_json (1.3.6)
+    mysql2 (0.3.11)
     nanoc (3.4.0)
       cri (~> 2.2)
+    nanoc3 (3.3.0)
+      nanoc (>= 3.3.0)
+    nokogiri (1.5.5)
+    orm_adapter (0.4.0)
+    polyamorous (0.5.0)
+      activerecord (~> 3.0)
     polyglot (0.3.3)
+    pygmentize (0.0.3)
     rack (1.4.1)
     rack-cache (1.2)
       rack (>= 0.4)
+    rack-protection (1.2.0)
+      rack
     rack-ssl (1.3.2)
       rack
     rack-test (0.6.1)
       rack (>= 1.0)
-    rails (3.2.7)
-      actionmailer (= 3.2.7)
-      actionpack (= 3.2.7)
-      activerecord (= 3.2.7)
-      activeresource (= 3.2.7)
-      activesupport (= 3.2.7)
+    rails (3.2.8)
+      actionmailer (= 3.2.8)
+      actionpack (= 3.2.8)
+      activerecord (= 3.2.8)
+      activeresource (= 3.2.8)
+      activesupport (= 3.2.8)
       bundler (~> 1.0)
-      railties (= 3.2.7)
-    railties (3.2.7)
-      actionpack (= 3.2.7)
-      activesupport (= 3.2.7)
+      railties (= 3.2.8)
+    railties (3.2.8)
+      actionpack (= 3.2.8)
+      activesupport (= 3.2.8)
       rack-ssl (~> 1.3.2)
       rake (>= 0.8.7)
       rdoc (~> 3.4)
       thor (>= 0.14.6, < 2.0)
     rake (0.9.2.2)
+    rb-readline (0.4.2)
     rdoc (3.12)
       json (~> 1.4)
+    redis (3.0.1)
+    redis-namespace (1.2.1)
+      redis (~> 3.0.0)
+    responders (0.9.2)
+      railties (~> 3.1)
+    resque (1.22.0)
+      multi_json (~> 1.0)
+      redis-namespace (~> 1.0)
+      sinatra (>= 0.9.2)
+      vegas (~> 0.1.2)
+    rest-client (1.6.7)
+      mime-types (>= 1.16)
     rubyzip (0.9.9)
-    sass (3.1.20)
+    sass (3.2.1)
     sass-rails (3.2.5)
       railties (~> 3.2.0)
       sass (>= 3.1.10)
       tilt (~> 1.3)
+    sinatra (1.3.3)
+      rack (~> 1.3, >= 1.3.6)
+      rack-protection (~> 1.2)
+      tilt (~> 1.3, >= 1.3.3)
     sprockets (2.1.3)
       hike (~> 1.2)
       rack (~> 1.0)
       tilt (~> 1.1, != 1.3.0)
-    sqlite3 (1.3.6)
-    thor (0.15.4)
+    systemu (2.5.2)
+    terminal-table (1.4.5)
+    thor (0.16.0)
     tilt (1.3.3)
     treetop (1.4.10)
       polyglot
       polyglot (>= 0.3.1)
     tzinfo (0.3.33)
-    uglifier (1.2.7)
+    uglifier (1.3.0)
       execjs (>= 0.3.0)
-      multi_json (~> 1.3)
+      multi_json (~> 1.0, >= 1.0.2)
+    uuidtools (2.1.3)
+    vegas (0.1.11)
+      rack (>= 1.0.0)
+    vmc (0.3.21)
+      addressable (~> 2.2.6)
+      cfoundry (~> 0.3.27)
+      interact (~> 0.4.0)
+      json_pure (>= 1.5.1, < 1.7.0)
+      rb-readline (~> 0.4.2)
+      rest-client (>= 1.6.1, < 1.7.0)
+      rubyzip (~> 0.9.4)
+      terminal-table (~> 1.4.2)
+      uuidtools (~> 2.1.0)
+    warden (1.2.1)
+      rack (>= 1.0)
+    yajl-ruby (1.1.0)
+    zip (2.0.2)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  activeadmin
   adsf
   coffee-rails (~> 3.2.1)
+  haml
   jquery-rails
   kramdown
-  nanoc
-  rails (= 3.2.7)
+  meta_search (>= 1.1.0.pre)
+  mime-types
+  mysql2
+  nanoc3
+  nokogiri
+  pygmentize
+  rails (= 3.2.8)
+  resque
   rubyzip
   sass-rails (~> 3.2.3)
-  sqlite3
+  systemu
   uglifier (>= 1.0.3)
+  vmc
+  yajl-ruby
+  zip
 
 === $LOAD_PATH:
 
   0. /Users/magizharasuthirunavukkarasu/vm/gitly/lib
   1. /Users/magizharasuthirunavukkarasu/vm/gitly/vendor
-  2. /Users/magizharasuthirunavukkarasu/vm/gitly/app/assets
-  3. /Users/magizharasuthirunavukkarasu/vm/gitly/app/controllers
-  4. /Users/magizharasuthirunavukkarasu/vm/gitly/app/helpers
-  5. /Users/magizharasuthirunavukkarasu/vm/gitly/app/mailers
-  6. /Users/magizharasuthirunavukkarasu/vm/gitly/app/models
-  7. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/jquery-rails-2.0.2/lib
-  8. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/jquery-rails-2.0.2/vendor
-  9. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/coffee-rails-3.2.2/lib
-  10. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/uglifier-1.2.7/lib
-  11. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/sqlite3-1.3.6/lib
-  12. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/sass-rails-3.2.5/lib
-  13. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/sass-3.1.20/lib
-  14. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/rubyzip-0.9.9/lib
-  15. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/rails-3.2.7/lib
-  16. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/nanoc-3.4.0/lib
-  17. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/kramdown-0.13.5/lib
-  18. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/cri-2.3.0/lib
-  19. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/colored-1.2/lib
-  20. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/railties-3.2.7/lib
-  21. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/thor-0.15.4/lib
-  22. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/rdoc-3.12/lib
-  23. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/json-1.7.4/lib
-  24. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/rack-ssl-1.3.2/lib
-  25. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/coffee-script-2.2.0/lib
-  26. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/execjs-1.4.0/lib
-  27. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/coffee-script-source-1.3.3/lib
-  28. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/adsf-1.0.1/lib
-  29. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/activeresource-3.2.7/lib
-  30. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/activerecord-3.2.7/lib
-  31. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/tzinfo-0.3.33/lib
-  32. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/arel-3.0.2/lib
-  33. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/actionmailer-3.2.7/lib
-  34. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/mail-2.4.4/lib
-  35. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/treetop-1.4.10/lib
-  36. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/polyglot-0.3.3/lib
-  37. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/mime-types-1.19/lib
-  38. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.7/lib
-  39. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/sprockets-2.1.3/lib
-  40. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/tilt-1.3.3/lib
-  41. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/hike-1.2.1/lib
-  42. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/rack-test-0.6.1/lib
-  43. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/rack-cache-1.2/lib
-  44. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/rack-1.4.1/lib
-  45. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/journey-1.0.4/lib
-  46. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/erubis-2.7.0/lib
-  47. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/activemodel-3.2.7/lib
-  48. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/builder-3.0.0/lib
-  49. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/activesupport-3.2.7/lib
-  50. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/multi_json-1.3.6/lib
-  51. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/i18n-0.6.0/lib
-  52. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/rake-0.9.2.2/lib
-  53. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/bundler-1.1.0/lib
-  54. /Users/magizharasuthirunavukkarasu/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1
-  55. /Users/magizharasuthirunavukkarasu/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby/1.9.1/x86_64-darwin11.3.0
-  56. /Users/magizharasuthirunavukkarasu/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/site_ruby
-  57. /Users/magizharasuthirunavukkarasu/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/vendor_ruby/1.9.1
-  58. /Users/magizharasuthirunavukkarasu/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/vendor_ruby/1.9.1/x86_64-darwin11.3.0
-  59. /Users/magizharasuthirunavukkarasu/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/vendor_ruby
-  60. /Users/magizharasuthirunavukkarasu/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1
-  61. /Users/magizharasuthirunavukkarasu/.rvm/rubies/ruby-1.9.3-p125/lib/ruby/1.9.1/x86_64-darwin11.3.0
-  62. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.3-p125/gems/actionpack-3.2.7/lib/action_controller/vendor/html-scanner
+  2. /Users/magizharasuthirunavukkarasu/vm/gitly/app/admin
+  3. /Users/magizharasuthirunavukkarasu/vm/gitly/app/assets
+  4. /Users/magizharasuthirunavukkarasu/vm/gitly/app/controllers
+  5. /Users/magizharasuthirunavukkarasu/vm/gitly/app/helpers
+  6. /Users/magizharasuthirunavukkarasu/vm/gitly/app/mailers
+  7. /Users/magizharasuthirunavukkarasu/vm/gitly/app/models
+  8. /Users/magizharasuthirunavukkarasu/vm/gitly/app/workers
+  9. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/activeadmin-0.5.0/lib
+  10. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/activeadmin-0.5.0/app/assets
+  11. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/inherited_resources-1.3.1/lib
+  12. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/inherited_resources-1.3.1/app/controllers
+  13. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/formtastic-2.2.1/lib
+  14. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/formtastic-2.2.1/app/assets
+  15. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/kaminari-0.14.1/lib
+  16. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/devise-2.1.2/lib
+  17. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/devise-2.1.2/app/controllers
+  18. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/devise-2.1.2/app/helpers
+  19. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/devise-2.1.2/app/mailers
+  20. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/bourbon-2.1.1/lib
+  21. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/bourbon-2.1.1/app/assets
+  22. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/jquery-rails-2.1.2/lib
+  23. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/jquery-rails-2.1.2/vendor
+  24. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/coffee-rails-3.2.2/lib
+  25. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/zip-2.0.2/lib
+  26. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/yajl-ruby-1.1.0/lib
+  27. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/vmc-0.3.21/lib
+  28. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/uuidtools-2.1.3/lib
+  29. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/uglifier-1.3.0/lib
+  30. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/terminal-table-1.4.5/lib
+  31. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/systemu-2.5.2/lib
+  32. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/sass-rails-3.2.5/lib
+  33. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/resque-1.22.0/lib
+  34. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/vegas-0.1.11/lib
+  35. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/sinatra-1.3.3/lib
+  36. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/redis-namespace-1.2.1/lib
+  37. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/redis-3.0.1/lib
+  38. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/rb-readline-0.4.2/lib
+  39. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/rack-protection-1.2.0/lib
+  40. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/pygmentize-0.0.3/lib
+  41. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/nokogiri-1.5.5/lib
+  42. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/nanoc3-3.3.0/lib
+  43. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/nanoc-3.4.0/lib
+  44. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/mysql2-0.3.11/lib
+  45. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/kramdown-0.14.0/lib
+  46. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/json_pure-1.6.7/lib
+  47. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/interact-0.4.8/lib
+  48. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/haml-3.1.7/lib
+  49. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/cri-2.3.0/lib
+  50. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/colored-1.2/lib
+  51. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/coffee-script-2.2.0/lib
+  52. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/execjs-1.4.0/lib
+  53. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/coffee-script-source-1.3.3/lib
+  54. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/cfoundry-0.3.34/lib
+  55. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/rubyzip-0.9.9/lib
+  56. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/rest-client-1.6.7/lib
+  57. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/adsf-1.1.1/lib
+  58. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/addressable-2.2.8/lib
+  59. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/rails-3.2.8/lib
+  60. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/activeresource-3.2.8/lib
+  61. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/meta_search-1.1.3/lib
+  62. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/polyamorous-0.5.0/lib
+  63. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/activerecord-3.2.8/lib
+  64. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/tzinfo-0.3.33/lib
+  65. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/arel-3.0.2/lib
+  66. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/responders-0.9.2/lib
+  67. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/has_scope-0.5.1/lib
+  68. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/fastercsv-1.5.5/lib
+  69. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/warden-1.2.1/lib
+  70. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/railties-3.2.8/lib
+  71. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/thor-0.16.0/lib
+  72. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/rdoc-3.12/lib
+  73. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/json-1.7.5/lib
+  74. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/rack-ssl-1.3.2/lib
+  75. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/orm_adapter-0.4.0/lib
+  76. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/bcrypt-ruby-3.0.1/lib
+  77. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/sass-3.2.1/lib
+  78. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/arbre-1.0.1/lib
+  79. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/actionmailer-3.2.8/lib
+  80. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/mail-2.4.4/lib
+  81. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/treetop-1.4.10/lib
+  82. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/polyglot-0.3.3/lib
+  83. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/mime-types-1.19/lib
+  84. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/actionpack-3.2.8/lib
+  85. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/sprockets-2.1.3/lib
+  86. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/tilt-1.3.3/lib
+  87. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/hike-1.2.1/lib
+  88. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/rack-test-0.6.1/lib
+  89. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/rack-cache-1.2/lib
+  90. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/rack-1.4.1/lib
+  91. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/journey-1.0.4/lib
+  92. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/erubis-2.7.0/lib
+  93. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/activemodel-3.2.8/lib
+  94. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/builder-3.0.3/lib
+  95. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/activesupport-3.2.8/lib
+  96. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/multi_json-1.3.6/lib
+  97. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/i18n-0.6.1/lib
+  98. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@global/gems/rake-0.9.2.2/lib
+  99. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@global/gems/bundler-1.1.5/lib
+  100. /Users/magizharasuthirunavukkarasu/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/site_ruby/1.9.1
+  101. /Users/magizharasuthirunavukkarasu/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/site_ruby/1.9.1/x86_64-darwin11.4.0
+  102. /Users/magizharasuthirunavukkarasu/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/site_ruby
+  103. /Users/magizharasuthirunavukkarasu/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/vendor_ruby/1.9.1
+  104. /Users/magizharasuthirunavukkarasu/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/vendor_ruby/1.9.1/x86_64-darwin11.4.0
+  105. /Users/magizharasuthirunavukkarasu/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/vendor_ruby
+  106. /Users/magizharasuthirunavukkarasu/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1
+  107. /Users/magizharasuthirunavukkarasu/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/x86_64-darwin11.4.0
+  108. /Users/magizharasuthirunavukkarasu/.rvm/gems/ruby-1.9.2-p320@docs/gems/actionpack-3.2.8/lib/action_controller/vendor/html-scanner

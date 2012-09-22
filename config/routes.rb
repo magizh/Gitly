@@ -55,6 +55,9 @@ Gitly::Application.routes.draw do
   root :to => 'home#index'
   post "/commit" => 'home#commit'
   match '/rename' => 'home#rename'
+
+  #match '/tags/:name' => 'home#tags'
+
   # See how all your routes lay out with "rake routes"
 
   # This is a legacy wild controller route that's not recommended for RESTful applications.
